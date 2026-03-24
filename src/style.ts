@@ -1,7 +1,7 @@
 import { Platform, StyleSheet } from 'react-native';
 import constants from './constants';
 
-export default StyleSheet.create({
+const style = StyleSheet.create({
   singleContainer: {
     height: constants.DAY_SIZE,
     width: constants.DAY_SIZE,
@@ -76,6 +76,8 @@ export default StyleSheet.create({
     height: constants.DAY_SIZE,
     width: 36,
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
   },
 });
+
+export default style;
